@@ -1,0 +1,77 @@
+.photo li{width: 30.3%;float: left;margin-right: 4.55%;margin-bottom: 2vw;position: relative;}
+.photo li:nth-child(3n){margin-right: 0;}
+.photo li>a,.NewsList_g3 .nwimg{box-sizing: border-box; height: 16vw;display: block;position: relative;overflow: hidden;
+    transition:.5s all ease-out;-ms-transition:.5s all ease-out;-webkit-transition:.5s all ease-out;
+}
+.photo ul a img{position: absolute;left: 50%;top: 50%;/* max-height: 95%;max-width: 95%; */object-fit:cover; 
+    width: 100%;height: 100%;max-width: 100%;max-height: 100%;
+    transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);
+    transition:.5s all ease-out;-ms-transition:.5s all ease-out;-webkit-transition:.5s all ease-out;
+}
+.photo ul h4{display: none;}
+.photo li span,.NewsList_g3 h3 a{height: auto !important; color: #333333;margin: 0 auto;padding: 1vw 5%; box-sizing: border-box;font-size: 16px;
+    text-align: center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display: block;
+    transition:.5s all ease-out;-ms-transition:.5s all ease-out;-webkit-transition:.5s all ease-out;
+}
+.photo li i{display: none;}
+.photo li>a:after,.NewsList_g3 .nwimg:after{content: "";display: block;width: 100%;height: 100%; left: 0;top: 0;position: absolute;box-sizing:border-box;border: 1px solid #eb6100;
+    transition:.6s all ease-out;-ms-transition:.6s all ease-out;-webkit-transition:.6s all ease-out;opacity: 0;
+}
+
+.NewsList_g3 p{display: none;}
+
+.rid33 .photo li,.rid33 .photo li:nth-child(3n){width: 22.75%;float: left;margin-right: 3%;margin-bottom: 2vw;position: relative;}
+.rid33 .photo li:nth-child(4n){margin-right: 0;}
+.rid33 .photo li>a{height: 13.5vw;}
+.rid33 .photo a img{width: auto;height: auto;max-width: 90%;max-height:90%;}
+.rid33 .photo li>a:after{border-color: #7d7d7d;opacity: 1;}
+
+.rid36 .photo li,.rid36 .photo li:nth-child(3n){width: 22.75%;float: left;margin-right: 3%;margin-bottom: 2vw;position: relative;
+    background-color: #f5f5f5;
+}
+.rid36 .photo li:nth-child(4n){margin-right: 0;}
+.rid36 .photo li>a .picimg{height: 17vw;position: relative;overflow: hidden;background-color: #fff;}
+.rid36 .photo li>a{height: auto;padding-bottom: 4.5em;}
+/* .rid36 .photo a img{width: auto;height: auto;max-width: 100%;max-height:100%;}
+ */.rid36 .photo li>a:after{opacity: 1;border-color: #e5e5e5;}
+.rid36 .photo li span{display: none;}
+.rid36 .photo h3{border-top: 1px solid #e5e5e5; padding: 1.5em 5%;box-sizing: border-box;text-align:center;width: 100%;line-height: 1.5;
+    position: absolute;left: 0;bottom: 0; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display: block;background: #f5f5f5;
+    transition:.6s padding ease-out;-ms-transition:.6s padding ease-out;-webkit-transition:.6s padding ease-out;font-size: 18px;
+}
+.rid36 .photo h3:after{content: "MORE";font-size: 14px;color: #fff;display: block;width: 7em;position: absolute;left: 50%;bottom: 0;
+    margin-left: -3.5em;border: 1px solid #fff;border-radius: 14px;line-height: 28px;opacity: 0;
+    transition:.6s all ease-out;-ms-transition:.6s all ease-out;-webkit-transition:.6s all ease-out;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     /* IE10+ CSS styles go here */
+  .photo ul a img{max-width: 200%;width: auto;min-width: 100%;}
+}
+@media screen and (min-width: 1024px){
+    .photo ul a:hover img{transform:translate(-50%,-50%) scale(1.08,1.08) ;-ms-transform:translate(-50%,-50%) scale(1.08,1.08) ;-webkit-transform:translate(-50%,-50%) scale(1.08,1.08) ;}
+    .photo li a:hover:after{opacity: 1;border-color: #d65227;}
+    .photo li>a:hover{box-shadow: 0 0 15px 0 rgba(0,0,0,0.3);}
+
+    .rid36 .photo a:hover h3{color: #fff;background-color: #d65227;padding-bottom: 4em;}
+    .rid36 .photo a:hover h3:after{opacity: 1; bottom: 2.6em;}
+}
+@media screen and (max-width: 1024px){
+    .photo li>a{height: 18vw;}
+    .NewsList_g3 .nwimg{height: 20vw;}
+    .rid33 .photo li>a{height: 18vw;}
+
+    .rid36 .photo h3{padding: 0.8em 5%;}
+}
+@media screen and (max-width: 640px){
+    .photo li,.photo li:nth-child(2n){width: 48.5% !important;margin-right: 3% !important; margin-bottom: 3.3vw !important;}
+    .photo li:nth-child(2n){margin-right: 0 !important;}
+    .photo li>a, .NewsList_g3 .nwimg{height: 35vw;}
+    .photo li span,.NewsList_g3 h3 a{font-size: 3.8vw;padding: 2.0vw 5%; }
+
+    .rid33 .photo li>a{height: 30vw;}
+
+    .rid36 .photo li>a {padding-bottom: 0;}
+    .rid36 .photo li>a .picimg{height: 36vw;}
+    .rid36 .photo h3{position:static;padding:0.5em 5%;font-size: 3.8vw;}
+
+}

@@ -1,0 +1,50 @@
+@charset "utf-8";
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+.InputV1, .TextareaV1{box-sizing:border-box;font-family: "微软雅黑",'Microsoft YaHei',Arial,"宋体";}
+.Gbook_b1{box-sizing:border-box}
+.Gbook_b1 li{display: inline-block;line-height: 44px;}
+.Gbook_b1 label{color: #434343;margin-right: 20px;float: left;width: 80px;}
+.Gbook_b1 .name{width:31.3%;float:left; margin-bottom:20px;}
+.Gbook_b1 .phone{width:31.3%; margin-left:3.05%;float:left; margin-bottom:20px;}
+.Gbook_b1 .email{width:31.3%; margin-left:3.05%;float:left; margin-bottom:20px;}
+.Gbook_b1 .company{width:31.3%; margin-left:3.05%;float:left; margin-bottom:20px;display: none;}
+.Gbook_b1 .content{width:100%;float:left; margin-bottom:20px;margin: 0 0 20px;}
+.Gbook_b1 .vcode{width: 100%;}
+.Gbook_b1 .vcode ul{float: left;position: relative;width: 320px;max-width: 100%;}
+.Gbook_b1 .vcode ul img{height: 42px;margin-right: 0;}
+.Gbook_b1 .vcode ul li:nth-child(2){float: right;position: absolute;right: 0;top: 0;height: 100%;width: auto;}
+.Gbook_b1 .vcode .InputV1{width:100%;height: 44px;line-height: 44px;}
+.Gbook_b1 .content textarea{min-height: 13em !important;}
+.Gbook_b1 .content{min-height: auto !important;}
+.Gbook_b1 .btn {width: 100%;display: block;margin-top: 1em;}
+.Gbook_b1 li{width: 100%;}
+.InputV1,.TextareaV1{border:none; border-bottom: 1px solid #aaabab;font-size: 14px;background-color:#fafafa;width: 100%;}
+.InputV1{line-height: 60px;height: 60px;padding: 0 10px;}
+.TextareaV1{line-height: 1.5;display: block;margin-right: 0; padding:10px; resize:none;background:#eeeeee;}
+.TextareaV1:focus,.InputV1:focus{background-color:#fff;}
+.ButtonV1{margin: 0 auto;display: block; height:40px;line-height:40px;color:#fff;font-size:16px;width: 160px;border-radius: 10px;border: none;
+    background-color: #d65227;}
+
+.ButtonV1:hover{background: #eeeeee;color: #d65227;cursor: pointer;}
+
+.InputV1:focus,.TextareaV1:focus{border-color:#d65227;background-color:#fafafa;}
+@media screen and (max-width: 1024px){
+    .InputV1, .TextareaV1{font-size: 16px;}
+}
+@media screen and (max-width: 640px){
+    .InputV1, .TextareaV1{font-size: 3.8vw;}
+    .Gbook_b1 li{width: 100% !important;margin: 0 0 6vw 0 !important;line-height: unset;}
+    .Gbook_b1 label{font-size: 3.6vw;width: 6em;float: left;margin-right: 0;line-height: 9.3vw;height: 9.3vw;}
+    .InputV1{line-height: 9.3vw;height: 9.3vw;padding: 0 2vw;display: block;}
+    .TextareaV1{padding: 2vw;}
+    
+    .Gbook_b1 .vcode ul{position: relative;}
+    .Gbook_b1 li.floatleft{margin: 0 !important;}
+    .Gbook_b1 li.floatleft:last-child{position: absolute;right: 0;top: 0;width: auto !important;}
+    .Gbook_b1 li.floatleft img{display: block;margin: 0;height: 100%;}
+    .Gbook_b1 .vcode .InputV1{width: 100%;}
+
+    .Gbook_b1 .content textarea {min-height: 11em !important;}
+
+    .ButtonV1{line-height: 10vw;height: 10vw;border-radius: 2vw;font-size: 3.8vw;margin-top: 6vw;}
+}
